@@ -2,8 +2,12 @@ import { types } from './actions'
 
 const initialState = {
   isFetching: false,
-  isAuthenticated: false,
-  user: {},
+  isAuthenticated: true,
+  user: {
+    profile: {
+      display_name: 'John',
+    },
+  },
 }
 
 export default function auth (state = initialState, action) {

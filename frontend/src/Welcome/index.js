@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 const Welcome = (props) =>
   <div className="container text-center">
-    <p>Welcome, {props.profile.display_name} !</p>
+    <p>Welcome, Yop !</p>
   </div>
 
 const mapStateToProps = (state) => ({
